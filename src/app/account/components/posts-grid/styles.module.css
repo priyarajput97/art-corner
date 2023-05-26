@@ -1,0 +1,34 @@
+.postsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.postContainer {
+  flex: 33% 0 0;
+  position: relative;
+}
+
+.post {
+  object-fit: cover;
+  width: 100%;
+  aspect-ratio: 1/1;
+}
+
+.likes {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: var(--light);
+  display: flex;
+  align-items: center;
+  background: var(--dark);
+  padding: 3px 8px;
+  border-radius: 20px;
+}
+
+.likeCount {
+  font-size: var(--small);
+  font-weight: 300;
+  margin-left: 2px;
+}

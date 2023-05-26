@@ -1,0 +1,24 @@
+.userInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.userInfo:hover .username {
+  color: var(--dark);
+  transition: all 0.2s linear;
+}
+
+.userIcon {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.username {
+  font-weight: 700;
+  transition: all 0.2s linear;
+}

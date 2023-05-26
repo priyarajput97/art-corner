@@ -1,0 +1,33 @@
+.headerContainer {
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brandName {
+  font-size: var(--xxl);
+  font-weight: 200;
+  color: var(--dark);
+}
+
+.searchBar {
+  width: 30vw;
+  padding: 2px 30px;
+  border-radius: 50px;
+  border: 1px solid var(--dark);
+}
+
+.link {
+  all: unset;
+  color: var(--primary);
+  font-size: var(--medium);
+  cursor: pointer;
+  transition: all 0.1s linear;
+  margin-left: 50px;
+}
+
+.link:hover {
+  color: var(--dark);
+  transition: all 0.1s linear;
+}

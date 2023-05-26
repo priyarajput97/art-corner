@@ -1,0 +1,22 @@
+.postContainer {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+}
+
+.postLeftContent {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.postImg {
+  object-fit: cover;
+  width: 30vw;
+  height: 30vw;
+}
+
+.iconsContainer {
+  display: flex;
+  margin-top: 10px;
+}

@@ -1,4 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
+  --primary: #c89595;
+  --secondary: #ddbebe;
+  --dark: #6c4a4a;
+  --light: #ededed;
+
+  --small: 14px;
+  --medium: 16px;
+  --large: 18px;
+  --xl: 20px;
+  --xxl: 30px
+}
+
+/* :root {
   --max-width: 1100px;
   --border-radius: 12px;
   --font-mono: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
@@ -104,4 +122,4 @@ a {
   html {
     color-scheme: dark;
   }
-}
+} */

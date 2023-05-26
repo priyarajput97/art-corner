@@ -1,0 +1,19 @@
+.shopButton {
+  background-color: var(--primary);
+  color: white;
+  width: fit-content;
+  margin-top: 20px;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  user-select: none;
+  font-weight: 200;
+  font-size: 14px;
+  transition: all 0.2s linear;
+}
+
+.shopButton:hover {
+  font-weight: 300;
+  box-shadow: 1px 1px 5px var(--dark);
+  transition: all 0.2s linear;
+}
